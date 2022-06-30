@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2a24109e80.js" crossorigin="anonymous"></script>
+
+        <title>Barbería Urbana</title>
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="logo">
+                <img style="width:13%" src="imagenes/logo_transparente.png" alt="">
+            </div>
+
+            <div class="paginas">
+                <a href="1_index.html">Home</a>
+                <a href="2_servicios.html">Servicios</a>
+                <a href="3_reservar.html" class="active">Reservar</a>
+                <a href="4_contacto.html">Contacto</a>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="contenedor-reserva">
+                    <div class="calendario">
+                        <div class="mes">      
+                            <span style="font-size:18px;">Junio 2022</span>
+                        </div>
+
+                        <ul class="semana">
+                            <li>Lun</li>
+                            <li>Mar</li>
+                            <li>Mié</li>
+                            <li>Jue</li>
+                            <li>Vie</li>
+                            <li>Sáb</li>
+                            <li>Dom</li>
+                        </ul>
+
+                        <ul class="dias">  
+                            <li><span class="no-laborable">30</span></li>
+                            <li><span class="vencido">31</span></li>
+                            <li><span class="vencido">01</span></li>
+                            <li><span class="vencido">02</span></li>
+                            <li><span class="vencido">03</span></li>
+                            <li><span class="vencido">04</span></li>
+                            <li><span class="no-laborable">05</span></li>
+                            <li><span class="no-laborable">06</span></li>
+                            <li><span class="vencido">07</span></li>
+                            <li><span class="vencido">08</span></li>
+                            <li><span class="vencido">09</span></li>
+                            <li><span class="vencido">10</span></li>
+                            <li><span class="vencido">11</span></li>
+                            <li><span class="no-laborable">12</span></li>
+                            <li><span class="no-laborable">13</span></li>
+                            <li><span class="vencido">14</span></li>
+                            <li><span class="vencido">15</span></li>
+                            <li><span class="vencido">16</span></li>
+                            <li><span class="feriado">17</span></li>
+                            <li><span class="vencido">18</span></li>
+                            <li><span class="no-laborable">19</span></li>
+                            <li><span class="feriado">20</span></li>
+                            <li><span class="dia-de-hoy">21</span></li>
+                            <li><span class="activo">22</span></li>
+                            <li><span class="activo">23</span></li>
+                            <li><span class="activo">24</span></li>
+                            <li><span class="activo">25</span></li>
+                            <li><span class="no-laborable">26</span></li>
+                            <li><span class="no-laborable">27</span></li>
+                            <li><span class="activo">28</span></li>
+                            <li><span class="activo">29</span></li>
+                            <li><span class="activo">30</span></li>
+                            <li><span class="activo">01</span></li>
+                            <li><span class="activo">02</span></li>
+                            <li><span class="no-laborable">03</span></li>
+                        </ul>
+
+                        <div class="detalle-dias-calendario mt-2">
+                            <div>
+                                <span class="pb-4" style="font-size:20px;">Tipos de días:</span>
+                            </div>
+                            <span class="mt-4" style="font-size:16px; font-weight: bolder;">Días Disponibles</span>
+                            <span style="font-size:15px; color: red;">Feriados Nacionales</span>
+                            <span style="font-size:15px; color: gray;">Días No Disponibles</span>
+                            <div class="w-full">
+                                <span class="padding-right: 10px; padding-left: 10px;" style="font-size:15px; color: white; background-color:#dedede;">Días No Laborables</span>
+                            </div>
+                        </div>
+
+                    </div>   
+
+                    <div>
+                        <div class="titulo mt-8 mb-4 w-full">
+                            <span style="font-size:18px;">Agenda para el 21 de Junio de 2022</span>
+                        </div>
+
+                        <div class="agenda">
+                            <div class="turno">
+                                <div class="foto-reserva"> <img src="imagenes/hair_shape.png" alt""></div>
+                                <div class="descripcion_turno">10:00 hs a 11:00 hs - Reservado Corte Caballero</div>
+                            </div>
+
+                            <div class="turno">
+                                <div class="foto-reserva"> <img src="imagenes/calendario.png" alt""></div>
+                                <div class="descripcion_turno" style="color:cornflowerblue">11:00 hs a 12:00 hs - Disponible </div>
+                            </div>
+
+                            <div class="turno">
+                                <div class="foto-reserva"> <img src="imagenes/kid_shape.png" alt""></div>
+                                <div class="descripcion_turno">12:00 hs a 13:00 hs - Reservado Corte Niños</div>
+                            </div>
+
+                            <div class="turno">
+                                <div class="foto-reserva"> <img src="imagenes/calendario.png" alt""></div>
+                                <div class="descripcion_turno" style="color:cornflowerblue">14:00 hs a 15:00 hs - Disponible</div>
+                            </div>
+
+                            <div class="turno">
+                                <div class="foto-reserva"> <img src="imagenes/bear_hairstyle.png" alt""></div>
+                                <div class="descripcion_turno">15:00 hs a 16:00 hs - Reservado Corte Barba</div>
+                            </div>
+
+                            <div class="turno">
+                                <div class="foto-reserva"> <img src="imagenes/kid_shape.png" alt""></div>
+                                <div class="descripcion_turno">16:00 hs a 17:00 hs - Reservado Corte Niños</div>
+                            </div>
+
+                            <div class="turno">
+                                <div class="foto-reserva"> <img src="imagenes/hair_shape.png" alt""></div>
+                                <div class="descripcion_turno">17:00 hs a 18:00 hs - Reservado Corte Caballero</div>
+                            </div>
+
+                            <div class="turno">
+                                <div class="foto-reserva"> <img src="imagenes/calendario.png" alt""></div>
+                                <div class="descripcion_turno" style="color:cornflowerblue">18:00 hs a 19:00 hs - Disponible</div>
+                            </div>
+
+                            <div class="turno">
+                                <div class="foto-reserva"> <img src="imagenes/bear_hairstyle.png" alt""></div>
+                                <div class="descripcion_turno">19:00 hs a 20:00 hs - Reservado Corte Barba</div>
+                            </div>
+                        
+                            <div class="detalle-informacion">
+                                <div>
+                                    <span class="pb-4" style="font-size:20px;">Horarios de Atención:</span>
+                                </div>
+                                <span class="mt-2" style="font-size:15px;">Martes a Sábados: de 10 a 13hs</span>
+                                <span style="font-size:15px;">Martes a Sábados: de 14 a 20hs</span>
+                                <span style="font-size:15px;">Domingo y Lunes: cerrado</span>
+                            </div>
+
+                        </div>
+                    </div> 
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <div>
+                <h4 style="text-align:center;"> Derechos Reservados &copy; 2022 </h4>
+            </div>
+
+            <div>
+                <h4 style="text-align:center; font-family:'Indie Flower'; font-size:large; font-weight: bolder;"> BARBERIA URBANA </h4>
+            </div>
+
+            <div class="iconos">    
+                <a href="https://www.facebook.com">
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com">
+                    <i class="fa-brands fa-instagram-square fa-2x"></i>
+                </a>
+                <a href="https://www.twitter.com">
+                    <i class="fa-brands fa-twitter-square fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com">
+                    <i class="fa-brands fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://www.pinterest.com">
+                    <i class="fa-brands fa-pinterest fa-2x"></i>
+                </a>
+            </div>
+        </footer>
+
+        <script src="/js/funciones.js"></script>
+
+    </body>    
+
+</html>
